@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git https://github.com/nikhilniki1408/ci-cd-pipeline.git
+                git 'https://github.com/nikhilniki1408/ci-cd-pipeline.git'
             }
         }
         stage('Build Docker Image') {
